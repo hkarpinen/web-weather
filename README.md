@@ -29,19 +29,19 @@ APIs we used to fetch information:
 You can only have one layer active at a time. Clicking one while another is on will turn off the previous layer. Clicking a layer that is already on will turn it off.
 
 ### Cloud Layer
-![altext](https://github.com/hkarpinen/web-weather/docs/clouds_app.png "Clouds layer")
+![altext](/docs/clouds_app.png "Clouds layer")
 
 ### Precipitation Layer
-![altext](https://github.com/hkarpinen/web-weather/docs/precipitation.png "Precipitation layer")
+![altext](./docs/precipitation.png "Precipitation layer")
 
 ### Sea Level Pressure Layer
-![altext](https://github.com/hkarpinen/web-weather/docs/sealevelpressure.png "Sea Level Pressure Layer")
+![altext](./docs/sealevelpressure.png "Sea Level Pressure Layer")
 
 ### Wind Layer
-![altext](https://github.com/hkarpinen/web-weather/docs/wind.png "Wind layer")
+![altext](./docs/wind.png "Wind layer")
 
 ### Temperature Layer
-![altext](https://github.com/hkarpinen/web-weather/docs/temp.png "Temperature Layer")
+![altext](./docs/temp.png "Temperature Layer")
 
 ### Cycling Layer
-![altext](https://github.com/hkarpinen/web-weather/docs/cycling.png "Cycling Layer")
+![altext](./docs/cycling.png "Cycling Layer")
