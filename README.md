@@ -1,46 +1,47 @@
-# Getting Started with Create React App
+## Technology
+This app is built upon various 3rd party APIs and the React framework. All API calls are done via
+functional components. There are no class components. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+APIs we used to fetch information:
+- OpenWeatherAPI
+- OpenStreetMap
+- CyclOSM
 
-## Available Scripts
+## Features
+- You can select a weather layer to display on top of the map. 
+- You can view weather information like:
+    - Current Temperature
+    - Lowest Temperature (Daily)
+    - Highest Temperature (Daily)
+    - Wind Speed & Direction
+    - Precipitation %
+    - Visibility Distance
+    - Atmospheric Pressure
+    - Sunrise time
+    - Sunset time
+- You can also change the metrics the measures are calculated in. You have the following options:
+    - Imperial
+    - Metric
 
-In the project directory, you can run:
+![altext](https://github.com/hkarpinen/web-weather/docs/default_app.png "Default App Look.")
 
-### `npm start`
+## Supported Weather Layers
+You can only have one layer active at a time. Clicking one while another is on will turn off the previous layer. Clicking a layer that is already on will turn it off.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Cloud Layer
+![altext](https://github.com/hkarpinen/web-weather/docs/clouds_app.png "Clouds layer")
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Precipitation Layer
+![altext](https://github.com/hkarpinen/web-weather/docs/precipitation.png "Precipitation layer")
 
-### `npm test`
+### Sea Level Pressure Layer
+![altext](https://github.com/hkarpinen/web-weather/docs/sealevelpressure.png "Sea Level Pressure Layer")
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Wind Layer
+![altext](https://github.com/hkarpinen/web-weather/docs/wind.png "Wind layer")
 
-### `npm run build`
+### Temperature Layer
+![altext](https://github.com/hkarpinen/web-weather/docs/temp.png "Temperature Layer")
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Cycling Layer
+![altext](https://github.com/hkarpinen/web-weather/docs/cycling.png "Cycling Layer")
