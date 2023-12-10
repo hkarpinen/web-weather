@@ -11,8 +11,6 @@ import WeatherInformation from "./WeatherInformation";
 import WeatherMap from "./WeatherMap";
 import {Col, Row} from "react-bootstrap";
 import WeatherSearch from "./WeatherSearch";
-import {Browser} from "leaflet";
-import retina = Browser.retina;
 
 function Weather() {
     const [weather, setWeather] = useState<CurrentResponse>();
