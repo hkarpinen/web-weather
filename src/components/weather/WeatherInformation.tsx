@@ -69,12 +69,12 @@ function WeatherInformation(props: {
                     tooltipText='Current Temperature'
                 />
                 <WeatherStatistic
-                    imgSrc={'/temp/temp-low.png'}
+                    imgSrc={'temp/temp-low.png'}
                     data={`${Math.round(main.temp_min)} ${temperatureMetricSymbol}`}
                     tooltipText={`Today's lowest temperature`}
                 />
                 <WeatherStatistic
-                    imgSrc={'/temp/temp-high.png'}
+                    imgSrc={'temp/temp-high.png'}
                     data={`${Math.round(main.temp_max)} ${temperatureMetricSymbol}`}
                     tooltipText={`Today's highest temperature`}
                 />
@@ -84,27 +84,27 @@ function WeatherInformation(props: {
                     tooltipText='Wind speed'
                 />
                 <WeatherStatistic
-                    imgSrc={'/atmosphere/humidity.png'}
+                    imgSrc={'atmosphere/humidity.png'}
                     data={`${Math.abs(main.humidity)}%`}
                     tooltipText={"Air humidity"}
                 />
                 <WeatherStatistic
-                    imgSrc={'/atmosphere/visibility.png'}
+                    imgSrc={'atmosphere/visibility.png'}
                     data={`${Math.round(visibility / 1000)}km`}
                     tooltipText='Visual Visibility Distance'
                 />
                 <WeatherStatistic
-                    imgSrc={'/atmosphere/pressure.png'}
+                    imgSrc={'atmosphere/pressure.png'}
                     data={`${main.pressure}hPa`}
                     tooltipText='Atmospheric pressure'
                 />
                 <WeatherStatistic
-                    imgSrc={'/time/sunrise.png'}
+                    imgSrc={'time/sunrise.png'}
                     data={`${convertUnixUtcTimeToLocaleTime(sys.sunrise)}`}
                     tooltipText='Time of sunrise'
                 />
                 <WeatherStatistic
-                    imgSrc={'/time/sunset.png'}
+                    imgSrc={'time/sunset.png'}
                     data={`${convertUnixUtcTimeToLocaleTime(sys.sunset)}`}
                     tooltipText='Time of sunset'
                 />

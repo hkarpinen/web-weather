@@ -53,42 +53,42 @@ function WeatherMap(props: {
                 <Row>
                     <ul className='d-flex list-unstyled m-0 p-0'>
                         <WeatherToolbarButton
-                            imgSrc='/map_toolbar/reset.png'
+                            imgSrc='map_toolbar/reset.png'
                             templateURL={null}
                             tooltipText="Remove all layers"
                         />
                         <WeatherToolbarButton
-                            imgSrc='/map_toolbar/cloud.png'
+                            imgSrc='map_toolbar/cloud.png'
                             templateURL={`https://tile.openweathermap.org/map/clouds_new/{z}/{x}/{y}.png?appid=${API_KEY}`}
                             tooltipText="Add cloud layer"
                             attribution="Open Weather Map"
                         />
                         <WeatherToolbarButton
-                            imgSrc='/map_toolbar/precipitation.png'
+                            imgSrc='map_toolbar/precipitation.png'
                             templateURL={`https://tile.openweathermap.org/map/precipitation_new/{z}/{x}/{y}.png?appid=${API_KEY}`}
                             tooltipText="Add precipitation layer"
                             attribution="Open Weather Map"
                         />
                         <WeatherToolbarButton
-                            imgSrc= '/atmosphere/pressure.png'
+                            imgSrc= 'atmosphere/pressure.png'
                             templateURL={`https://tile.openweathermap.org/map/pressure_new/{z}/{x}/{y}.png?appid=${API_KEY}`}
                             tooltipText="Add Sea level pressure layer"
                             attribution="Open Weather Map"
                         />
                         <WeatherToolbarButton
-                            imgSrc='/wind/wind.png'
+                            imgSrc='wind/wind.png'
                             templateURL={`https://tile.openweathermap.org/map/wind_new/{z}/{x}/{y}.png?appid=${API_KEY}`}
                             tooltipText="Add wind layer"
                             attribution="Open Weather Map"
                         />
                         <WeatherToolbarButton
-                            imgSrc='/temp/temp-low.png'
+                            imgSrc='temp/temp-low.png'
                             templateURL={`https://tile.openweathermap.org/map/temp_new/{z}/{x}/{y}.png?appid=${API_KEY}`}
                             tooltipText="Add temperature layer"
                             attribution="Open Weather Map"
                         />
                         <WeatherToolbarButton
-                            imgSrc='/map_toolbar/cycling.png'
+                            imgSrc='map_toolbar/cycling.png'
                             templateURL={'https://{s}.tile-cyclosm.openstreetmap.fr/cyclosm/{z}/{x}/{y}.png'}
                             tooltipText={"Add bicycling layer"}
                             attribution="CyclOSM"
